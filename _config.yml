@@ -1,6 +1,15 @@
-title: niasmic
+title: NIASMIC
 description: Non Invasive Analysis of Somatic Mutations in Cancer
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
 
